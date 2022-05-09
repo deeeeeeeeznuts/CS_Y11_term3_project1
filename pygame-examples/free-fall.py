@@ -14,17 +14,17 @@ def main():
         v_y=0,
         boundary_x=Window.HEIGHT,
         boundary_y=Window.WIDTH,
-        color=Colors.PINK,
+        color=Colors.BLUE,
     )
     obj2 = Object(
         x=200,
         y=300,
-        height=40,
-        width=40,
+        height=60,
+        width=60,
         v_x=25,
         v_y=-60,
         boundary_x=Window.HEIGHT,
-        boundary_y=Window.HEIGHT,
+        boundary_y=Window.WIDTH,
         color=Colors.PINK,
     )
     timestep = 100
